@@ -1,0 +1,54 @@
+<h1>Comment créer un petit site web pour présenter vos projets</h1>
+<p>Que ce soit lors de votre cours de R3 ou autre, vous avez créer des projets sous forme d’une page html. Et maintenant vous souhaitez que le grand public puisse facilement accéder à ces documents.</p>
+<p>pour cela je vous propose de créer un petit site web static via Github Pages.</p>
+<h2>Qu’est-ce que Github Pages</h2>
+<ul>
+<li>Github</li>
+<li>Github Pages
+<ul>
+<li>site web statique hébergé dans un dépôt Github</li>
+</ul>
+</li>
+</ul>
+<p>Il faudra en plus faire appel à une technologie de génération de site web (Jekyll, Hugo, etc.)</p>
+<h2>Démarrage</h2>
+<ul>
+<li>création d’un compte Github</li>
+<li>activation du service Github Pages</li>
+<li></li>
+</ul>
+<h3>Création d’un compte Github</h3>
+<p>C’est par ici : <a href="https://github.com/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F&amp;source=header-home">https://github.com/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F&amp;source=header-home</a>
+Laissez-vous guider.</p>
+<p>Attention, votre site aura pour adresse <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">votre_nom_dutilisateur.github.io</code>.</p>
+<h3>Création d’un dossier</h3>
+<p>Ce dossier hébergera le code de votre site et lui donnera aussi son nom.</p>
+<ul>
+<li>cliquez sur le + en haut</li>
+<li>choisissez <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">New repository</code></li>
+<li>nommez le <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">votre_nom_dutilisateur.github.io</code> c’est obligatoire pour que Github Pages fonctionne</li>
+<li>assurez vous de bien le laissez en <em>public</em></li>
+<li>cliquez sur <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">create repository</code></li>
+</ul>
+<h3>Création de la page html d’index</h3>
+<p>Dans l’encadré, <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">quick setup</code>, cliquez sur <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">create a new file</code>.</p>
+<p>Nommez votre fichier <strong>obligatoirement</strong> <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">index.html</code> (à la place de *Name your file…).</p>
+<p>Dans la zone d’édition, vous pouvez y mettre du code html.
+: par exemple</p>
+<pre class="editor-colors lang-text" style="tab-size: 2;"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text">&lt;h1&gt; Bonjour internet !&lt;h1&gt;</span></span></pre>
+<p>Enregistrez cela en cliquant sur le bouton (vert) <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">Commit changes...</code>.
+Github vous propose de mettre un <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">Commit message</code>. Ce message est censé refléter la modification que vous entérinez en enregistrant vos modifications : comme ici : <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">create index.html</code>. Validez en cliquant sur <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">Commit changes</code>.</p>
+<p>Maintenant votre dossier contient le fichier <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">index.html</code>.</p>
+<h3>Admirer votre page web</h3>
+<ul>
+<li>Au bout d’une minute, Github aura généré votre site web et vous devriez admirer votre page internet digne du début des années 2000 à l’adresse <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">votre_nom_dutilisation.github.io</code>.</li>
+</ul>
+<h2>Ajout de pages html</h2>
+<p>Il est possible de créer de vrais et beaux sites web (statique) hébergés par Github en utilisant des générateurs de sites statiques comme Jekyll ou Hugo.</p>
+<p>Mais là je vous propose de faire au plus simple.</p>
+<p>Il suffit de glisser déposer votre fichier html de votre ordinateur vers votre dépôt Github et votre fichier sera accessible à l’adresse <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">votre_nom_dutilisateur.github.io/nom_de_votre_fichier.html</code>.</p>
+<p>Vous pouvez aussi ajouter dans votre fichier <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">index.html</code> un lien vers ce fichier avec la syntaxe :</p>
+<pre class="editor-colors lang-text" style="tab-size: 2;"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text">&lt;a href="<span class="syntax--markup syntax--underline syntax--link syntax--https syntax--hyperlink">https://votre_nom_dutilisateur.github.io/nom_de_votre_fichier.html</span>"&gt;Ma super étude !&lt;/a&gt;</span></span></pre>
+<h2>Partager le lien vers votre page</h2>
+<p>Vous n’avez plus qu’à partager les liens de type <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">votre_nom_dutilisateur.github.io/nom_de_votre_fichier.html</code> via votre CV, votre lettre de motivation, vos réseaux sociaux, etc.</p>
+<p>Vous pouvez éventuellement utiliser des raccourcisseur de lien ou des QR code pour les documents qui ont pour objectif d’être imprimé.</p>
